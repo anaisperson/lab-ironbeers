@@ -5,4 +5,43 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+
+nav{
+    height: 60px;
+    background-color: #2081C3;
+    color:white;
+    font-family:Arial,Helvetica, sans-serif;
+    box-shadow: grey;
+}
+
+nav ul {
+    display:flex;
+    list-style-type: none;
+    padding-top:9px;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #0A2C42;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sentence {
+    margin-left: 60px;
+}
+
+#flextitude {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#main {
+    flex:1;
+    height:100vh;
+}
